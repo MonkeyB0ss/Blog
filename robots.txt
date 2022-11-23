@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://monkeyb0ss.github.io/Blog/sitemap.xml
