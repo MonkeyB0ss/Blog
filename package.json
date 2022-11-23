@@ -1,0 +1,19 @@
+{
+  "name": "monkeyboss-blog",
+  "version": "2.0.0",
+  "description": "MonkeyBoss's Blog",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.53",
+    "vue": "^3.2.45",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.127"
+  }
+}
