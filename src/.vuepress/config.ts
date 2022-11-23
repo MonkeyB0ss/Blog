@@ -4,7 +4,7 @@ import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
 
 export default defineUserConfig({
-  base: "/",
+  base: "/Blog/",
 
   locales: {
     "/": {
