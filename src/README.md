@@ -2,47 +2,44 @@
 home: true
 layout: Blog
 icon: home
-title: Blog Home
-heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+title: 主页
+bgImage: /background.jpg
+heroImage: /MonkeyBoss.png
+heroImageStyle:
+heroText: MonkeyBoss
 heroFullScreen: true
+tagline: 旨在整理所学，亦是梳理自己的知识体系
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+- icon: project
+  name: 项目名称
+  desc: 项目详细描述
+  link: https://你的项目链接
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+- icon: link
+  name: 链接名称
+  desc: 链接详细描述
+  link: https://链接地址
 
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+- icon: book
+  name: 书籍名称
+  desc: 书籍详细描述
+  link: https://你的书籍链接
 
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+- icon: article
+  name: 文章名称
+  desc: 文章详细描述
+  link: https://你的文章链接
 
-  - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
+- icon: friend
+  name: 伙伴名称
+  desc: 伙伴详细介绍
+  link: https://你的伙伴链接
 
-footer: customize your footer text
+- icon: /logo.svg
+  name: 自定义项目
+  desc: 自定义详细介绍
+  link: https://你的自定义链接
+
+footer: '<a href="/">关于网站</a>'
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).

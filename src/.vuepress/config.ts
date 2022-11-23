@@ -8,14 +8,14 @@ export default defineUserConfig({
 
   locales: {
     "/": {
+      lang: "zh-CN",
+      title: "MonkeyBoss",
+      description: "旨在整理所学，亦是梳理自己的知识体系",
+    },
+    "/en/": {
       lang: "en-US",
       title: "Blog Demo",
       description: "A blog demo for vuepress-theme-hope",
-    },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
     },
   },
 
