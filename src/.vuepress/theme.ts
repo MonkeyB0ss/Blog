@@ -23,12 +23,13 @@ export default hopeTheme({
 
       blog: {
         description: "自律进步，有始有终",
-        intro: "/intro.html",
+        intro: "/about/intro.html",
         medias: {
           Email: "mailto:1912290362@qq.com",
           Gmail: "mailto:erasmehou@gmail.com",
           GitHub: "https://github.com/MonkeyB0ss",
           Gitee: "https://gitee.com/MonkeyBoss",
+          Discord: "https://discord.gg/HCBrTSN5MG",
         },
       },
     },
@@ -40,12 +41,13 @@ export default hopeTheme({
       blog: {
         description:
             "Self discipline and progress",
-        intro: "/en/intro.html",
+        intro: "/en/about/intro.html",
         medias: {
           Email: "mailto:1912290362@qq.com",
           Gmail: "mailto:erasmehou@gmail.com",
           GitHub: "https://github.com/MonkeyB0ss",
           Gitee: "https://gitee.com/MonkeyBoss",
+          Discord: "https://discord.gg/HCBrTSN5MG",
         },
       },
     },

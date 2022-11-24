@@ -8,46 +8,26 @@ export const zhNavbar = navbar([
         prefix: "/java/",
         children: [
             {
-                text: "Java基础",
-                icon: "form",
-                link: "java-basic/"
+                text: "基础",
+                children: [
+                    {text: "Java基础", icon: "calculate", link: "java-basic/"},
+                    {text: "JavaWEB", icon: "html", link: ""},
+                ]
             },
             {
-                text: "JavaWEB",
-                icon: "form",
-                prefix: "BasicCore/",
+                text: "进阶",
                 children: [
-                    {text: "java基础", icon: "java", link: "java-basic/"},
-                    {text: "苹果2", icon: "edit", link: "2"},
-                ],
+                    {text: "JavaEE框架", icon: "network", link: ""},
+                    {text: "微服务核心生态", icon: "cache", link: ""},
+                ]
             },
             {
-                text: "JavaEE框架",
-                icon: "edit",
-                prefix: "banana/",
+                text: "其它",
                 children: [
-                    {
-                        text: "香蕉 1",
-                        icon: "edit",
-                        link: "1",
-                    },
-                    {
-                        text: "香蕉 2",
-                        icon: "edit",
-                        link: "2",
-                    },
-                    "3",
-                    "4",
-                ],
+                    {text: "项目", icon: "operate", link: ""},
+                    {text: "面试", icon: "proxy", link: ""},
+                ]
             },
-            {text: "微服务核心生态", icon: "edit", link: "cherry"},
-            {text: "项目", icon: "edit", link: "dragonfruit"},
-            {text: "面试", icon: "edit", link: "dragonfruit"},
         ],
-    },
-    {
-        text: "V2 文档",
-        icon: "note",
-        link: "https://vuepress-theme-hope.github.io/v2/",
     },
 ]);

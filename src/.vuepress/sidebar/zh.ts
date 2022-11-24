@@ -20,6 +20,10 @@ export const zhSidebar = sidebar({
                         {
                             text: "面向对象 - 中",
                             link: "class-extends",
+                        },
+                        {
+                            text: "面向对象 - 下",
+                            link: "class-static",
                         }
                     ],
                 }
@@ -34,5 +38,7 @@ export const zhSidebar = sidebar({
         },
     ],
     "/java/java-basic/object/": ["class", "class-structure", "class-method", "encapsulation", "class-constructor", "this", "package-import"],
-    // "/java/java-basic/object/": ["class-extends", "override", "super", "instantiation", "polymorphic", "class-object", "class-wrapper"],
+    "/java/java-basic/object/": ["class-extends", "override", "super", "instantiation", "polymorphic", "class-object", "class-wrapper"],
+    "/java/java-basic/object/": ["class-static"],
+    "/about/": ["intro", "site"],
 });

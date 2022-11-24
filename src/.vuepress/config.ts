@@ -12,11 +12,11 @@ export default defineUserConfig({
       title: "MonkeyBoss",
       description: "旨在整理所学，亦是梳理自己的知识体系",
     },
-    "/en/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "Blog Demo",
+    //   description: "The purpose is to sort out what we have learned, and also to sort out our own knowledge system",
+    // },
   },
 
   theme,

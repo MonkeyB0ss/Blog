@@ -2,6 +2,8 @@
 title: JAVA
 icon: java
 date: 2022-11-19
+star: true
+sticky: true
 tag:
 
 - JAVA

@@ -11,35 +11,20 @@ heroFullScreen: true
 tagline: 旨在整理所学，亦是梳理自己的知识体系
 projects:
 
-- icon: project
-  name: 项目名称
-  desc: 项目详细描述
-  link: https://你的项目链接
+- name: vuepress
+  desc: 基于 Vue 的静态文档构建器🎉
+  link: https://v2.vuepress.vuejs.org/zh/
+  icon: /assets/img/vuepress.png
 
-- icon: link
-  name: 链接名称
-  desc: 链接详细描述
-  link: https://链接地址
+- name: vuepress-theme-hope
+  desc: 一个功能强大的 Vuepress 主题✨
+  link: https://vuepress-theme-hope.github.io/v2/zh/
+  icon: /assets/img/vuepress-hope-logo.svg
 
-- icon: book
-  name: 书籍名称
-  desc: 书籍详细描述
-  link: https://你的书籍链接
+- name: 尚硅谷
+  desc: 让天下没有难学的技术！🎁
+  link: https://space.bilibili.com/302417610
+  icon: /assets/img/atguigu.png
 
-- icon: article
-  name: 文章名称
-  desc: 文章详细描述
-  link: https://你的文章链接
-
-- icon: friend
-  name: 伙伴名称
-  desc: 伙伴详细介绍
-  link: https://你的伙伴链接
-
-- icon: /logo.svg
-  name: 自定义项目
-  desc: 自定义详细介绍
-  link: https://你的自定义链接
-
-footer: '<a href="/">关于网站</a>'
+footer: '<a href="/Blog/about/site.html">关于网站</a>'
 ---
