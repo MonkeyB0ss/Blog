@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-84a70306","path":"/category/dragon-fruit/","title":"Dragon Fruit 分类","lang":"zh-CN","frontmatter":{"title":"Dragon Fruit 分类","blog":{"type":"category","name":"Dragon Fruit","key":"category"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null}');export{t as data};
