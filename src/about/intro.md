@@ -17,7 +17,7 @@ tag:
 
 <!-- .slide: data-transition="slide" -->
 
-![MonkeyBoss](/MonkeyBoss.png)
+![MonkeyBoss](/Blog/MonkeyBoss.png)
 
 ---
 
