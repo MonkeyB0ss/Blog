@@ -14,7 +14,7 @@ tag:
 1. 减少了代码的冗余，提高了代码的复用性
 2. 便于功能的扩展
 3. 为之后多态性的使用，提供了前提
-   ![img.png](../images/extends.png)
+   ![img.png](../../images/extends.png)
 
 ## 继承性的格式
 
@@ -40,7 +40,7 @@ class A extends B {
 3. 子父类是相对的概念。
 4. 子类直接继承的父类，称为：直接父类。间接继承的父类称为：间接父类
 5. 子类继承父类以后，就获取了直接父类以及所间接父类中声明的属性和方法
-   ![img.png](../images/extends2.png)
+   ![img.png](../../images/extends2.png)
 
 ## java.lang.Object类的理解
 

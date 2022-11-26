@@ -41,7 +41,7 @@ tag:
 
 ### 完成一个项目（或功能）的思路
 
-![img.png](../images/thought.png)
+![img.png](../../images/thought.png)
 
 ### 面向对象中两个重要的概念
 
@@ -87,7 +87,7 @@ Person p3 = p1;
 
 内存解析：
 
-![img_2.png](../images/memory.png)
+![img_2.png](../../images/memory.png)
 
 ### 匿名对象
 

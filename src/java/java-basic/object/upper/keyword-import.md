@@ -21,13 +21,13 @@ tag:
 ### 举例
 
 - 某航运软件系统包括：一组域对象、GUI和reports子系统
-  ![img.png](../images/package1.png)
+  ![img.png](../../images/package1.png)
 - MVC设计模式
-  ![img_1.png](../images/package2.png)
+  ![img_1.png](../../images/package2.png)
 
 ### JDK中的主要包介绍
 
-![img_2.png](../images/package3.png)
+![img_2.png](../../images/package3.png)
 
 ## import的使用
 

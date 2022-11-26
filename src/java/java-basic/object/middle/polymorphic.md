@@ -93,7 +93,7 @@ class Driver{
     2. 如果 a instanceof A返回true,则 a instanceof B也返回true.其中，类B是类A的父类。
     3. 要求a所属的类与类A必须是子类和父类的关系，否则编译错误。
 5. 图示：  
-   ![img.png](../images/polymorphic.png)
+   ![img.png](../../images/polymorphic.png)
 
 ### 面试题
 

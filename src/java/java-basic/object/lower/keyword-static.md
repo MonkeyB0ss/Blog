@@ -30,7 +30,7 @@ tag:
 
 ## 静态变量内存解析
 
-![img.png](../images/static.png)
+![img.png](../../images/static.png)
 
 ## static修饰方法：静态方法、类方法
 
@@ -58,7 +58,7 @@ tag:
 ## 使用举例
 
 - 举例一：Arrays、Math、Collections等工具类
-- 举例二：[单例模式](/Blog/java/java-basic/object/single.html)
+- 举例二：[单例模式](/Blog/java/java-basic/object/lower/single.html)
 - 举例三：
 
 ```java
@@ -84,23 +84,23 @@ class Circle{
 	private static int init = 1001;
 	
 	public double findArea(){
-		return 3.14 * radius * radius;
+		 return 3.14 * radius * radius;
 	}
 
 	public double getRadius() {
-		return radius;
+		 return radius;
 	}
 
 	public void setRadius(double radius) {
-		this.radius = radius;
+		 this.radius = radius;
 	}
 
 	public int getId() {
-		return id;
+		 return id;
 	}
 
 	public static int getTotal() {
-		return total;
+	  	return total;
 	}
 }
 ```

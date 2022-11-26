@@ -52,7 +52,7 @@ public double getRadius(){
 
 1. 权限从小到大顺序为：`private` < `缺省` < `protected` < `public`
 2. 具体的修饰范围：
-   ![img.png](../images/modifier.png)
+   ![img.png](../../images/modifier.png)
 3. 权限修饰符可用来修饰的结构说明：  
    4种权限都可以用来修饰类的内部结构：`属性`、`方法`、`构造器`、`内部类`  
    修饰类的话，==只能==使用：`缺省`、`public`

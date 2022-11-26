@@ -11,19 +11,19 @@ export const zhSidebar = sidebar({
                 "java-array",
                 {
                     text: "面向对象",
-                    prefix: "object",
+                    prefix: "object/",
                     children: [
                         {
                             text: "面向对象 - 上",
-                            link: "class",
+                            link: "/java/java-basic/object/upper/class",
                         },
                         {
                             text: "面向对象 - 中",
-                            link: "class-extends",
+                            link: "/java/java-basic/object/middle/class-extends",
                         },
                         {
                             text: "面向对象 - 下",
-                            link: "class-static",
+                            link: "/java/java-basic/object/lower/keyword-static",
                         }
                     ],
                 }
@@ -37,8 +37,8 @@ export const zhSidebar = sidebar({
             children: "structure",
         },
     ],
-    "/java/java-basic/object/": ["class", "class-structure", "class-method", "encapsulation", "class-constructor", "this", "package-import"],
-    "/java/java-basic/object/": ["class-extends", "override", "super", "instantiation", "polymorphic", "class-object", "class-wrapper"],
-    "/java/java-basic/object/": ["class-static"],
+    "/java/java-basic/object/upper/": ["class", "class-structure", "class-method", "encapsulation", "class-constructor", "keyword-this", "keyword-import"],
+    "/java/java-basic/object/middle/": ["class-extends", "override", "keyword-super", "instantiation", "polymorphic", "class-object", "class-wrapper"],
+    "/java/java-basic/object/lower/": ["keyword-static", "class-main", "class-coder", "keyword-final", "keyword-abstract"],
     "/about/": ["intro", "site"],
 });

@@ -30,4 +30,12 @@ export const zhNavbar = navbar([
             },
         ],
     },
+    {
+        text: "笔记",
+        icon: "editor",
+        prefix: "/note/",
+        children: [
+
+        ]
+    }
 ]);
