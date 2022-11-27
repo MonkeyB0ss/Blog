@@ -4,6 +4,7 @@ category: 基础
 tag:
 
 - JAVA
+- 设计模式
 
 ---
 
