@@ -1,11 +1,11 @@
 import {sidebar} from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-    "/java/java-basic/": [
-        "",
+    "/java/": [
         {
             text: "Java基础编程",
             icon: "java",
+            prefix: "java-basic/",
             children: [
                 "java-basic",
                 "java-array",
@@ -27,14 +27,21 @@ export const zhSidebar = sidebar({
         {
             text: "Java高级编程",
             icon: "creative",
-            prefix: "BasicCore/",
-            link: "BasicCore/",
-            children: "structure",
+            prefix: "java-advanced/",
+            children: [
+                {
+                    text: "多线程",
+                    link: "multi-thread/introduce",
+                },
+            ],
         },
     ],
     "/java/java-basic/object/upper/": ["class", "class-structure", "class-method", "encapsulation", "class-constructor", "keyword-this", "keyword-import"],
     "/java/java-basic/object/middle/": ["class-extends", "override", "keyword-super", "instantiation", "polymorphic", "class-object", "class-wrapper"],
     "/java/java-basic/object/lower/": ["keyword-static", "class-main", "class-coder", "keyword-final", "keyword-abstract", "keyword-interface", "class-innerClass"],
     "/java/java-basic/design-patterns/": ["single", "agent", "factory"],
+
+    "/java/java-advanced/multi-thread/": ["introduce", "concurrent", "thread", "thread-methods", "thread-lifeCycle", "thread-synchronization", "thread-notify", "thread-new"],
+
     "/about/": ["intro", "site"],
 });

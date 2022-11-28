@@ -129,5 +129,5 @@ class Printer implements USB{
     }
    ```
 
-## [代理模式](/java/java-basic/design-patterns/agent.md)
-## [工厂模式](/java/java-basic/design-patterns/factory.md)
+## [代理模式](/java/design-patterns/agent.md)
+## [工厂模式](/java/design-patterns/factory.md)

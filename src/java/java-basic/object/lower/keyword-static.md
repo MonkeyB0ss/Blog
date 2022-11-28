@@ -58,7 +58,7 @@ tag:
 ## 使用举例
 
 - 举例一：Arrays、Math、Collections等工具类
-- 举例二：[单例模式](/java/java-basic/design-patterns/single.md)
+- 举例二：[单例模式](/java/design-patterns/single.md)
 - 举例三：
 
 ```java

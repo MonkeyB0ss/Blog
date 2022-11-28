@@ -47,7 +47,7 @@ class ProxyServer implements NetWork{
 
 ## 应用场景
 
-![img.png](../images/agent.png)
+![img.png](../java-basic/images/agent.png)
 
 
 

@@ -10,7 +10,7 @@ export const zhNavbar = navbar([
             {
                 text: "基础",
                 children: [
-                    {text: "Java基础", icon: "calculate", link: "java-basic/"},
+                    {text: "Java基础", icon: "calculate", link: "java-basic/java-basic"},
                     {text: "JavaWEB", icon: "html", link: ""},
                 ]
             },
