@@ -33,6 +33,10 @@ export const zhSidebar = sidebar({
                     text: "多线程",
                     link: "multi-thread/introduce",
                 },
+                {
+                    text: "Java常用类",
+                    link: "common-utils/String",
+                },
             ],
         },
     ],
@@ -42,6 +46,7 @@ export const zhSidebar = sidebar({
     "/java/java-basic/design-patterns/": ["single", "agent", "factory"],
 
     "/java/java-advanced/multi-thread/": ["introduce", "concurrent", "thread", "thread-methods", "thread-lifeCycle", "thread-synchronization", "thread-notify", "thread-new"],
+    "/java/java-advanced/common-utils/": ["String", "StringBufferAndStringBuilder", "date", "thread-methods", "thread-lifeCycle", "thread-synchronization", "thread-notify", "thread-new"],
 
     "/about/": ["intro", "site"],
 });
