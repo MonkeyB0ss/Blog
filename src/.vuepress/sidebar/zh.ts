@@ -37,6 +37,10 @@ export const zhSidebar = sidebar({
                     text: "Java常用类",
                     link: "common-utils/String",
                 },
+                {
+                    text: "枚举类和注解",
+                    link: "enum/enum",
+                },
             ],
         },
     ],
@@ -46,7 +50,8 @@ export const zhSidebar = sidebar({
     "/java/java-basic/design-patterns/": ["single", "agent", "factory"],
 
     "/java/java-advanced/multi-thread/": ["introduce", "concurrent", "thread", "thread-methods", "thread-lifeCycle", "thread-synchronization", "thread-notify", "thread-new"],
-    "/java/java-advanced/common-utils/": ["String", "StringBufferAndStringBuilder", "date", "thread-methods", "thread-lifeCycle", "thread-synchronization", "thread-notify", "thread-new"],
+    "/java/java-advanced/common-utils/": ["String", "StringBufferAndStringBuilder", "date", "time", "comparator", "other"],
+    "/java/java-advanced/enum/": ["enum", "annotation"],
 
     "/about/": ["intro", "site"],
 });

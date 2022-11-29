@@ -171,7 +171,8 @@ indexOf和lastIndexOf方法如果未找到都是返回-1
 
 替换：
 
-1. `String replace(char oldChar, char newChar)`：返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所 oldChar 得到的。
+1. `String replace(char oldChar, char newChar)`：返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所 oldChar
+   得到的。
 2. `String replace(CharSequence target, CharSequence replacement)`：使用指定的字面值替换序列替换此字符串所匹配字面值目标序列的子字符串。
 3. `String replaceAll(String regex, String replacement)`：使用给定的 replacement 替换此字符串所匹配给定的正则表达式的子字符串。
 4. `String replaceFirst(String regex, String replacement)`：使用给定的 replacement 替换此字符串匹配给定的正则表达式的第一个子字符串。
@@ -293,10 +294,8 @@ public void test3() throws UnsupportedEncodingException {
    提示：将短的那个串进行长度依次递减的子串与较长的串比较。
 
 5. 对字符串中字符进行自然顺序排序。
-
-   提示：
-	- 字符串变成字符数组。
-	- 对数组排序，择，冒泡，Arrays.sort();
-	- 将排序后的数组变成字符串。
+   - 字符串变成字符数组。
+   - 对数组排序，择，冒泡，Arrays.sort();
+   - 将排序后的数组变成字符串。
 
 
