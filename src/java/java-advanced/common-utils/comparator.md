@@ -26,9 +26,9 @@ Java中的对象，正常情况下，只能进行比较：`==`  或  `!=` 。不
 1. 像String、包装类等实现了`Comparable`接口，重写了`compareTo(obj)`方法，给出了比较两个对象大小的方式。
 2. 像String、包装类重写`compareTo()`方法以后，进行了从小到大的排列
 3. 重写`compareTo(obj)`的规则：
-   如果当前对象this大于形参对象obj，则返回正整数，
-   如果当前对象this小于形参对象obj，则返回负整数，
-   如果当前对象this等于形参对象obj，则返回零。
+	- 如果当前对象this大于形参对象obj，则返回正整数，
+	- 如果当前对象this小于形参对象obj，则返回负整数，
+	- 如果当前对象this等于形参对象obj，则返回零。
 4. 对于自定义类来说，如果需要排序，我们可以让自定义类实现`Comparable`接口，重写`compareTo(obj)`方法。在`compareTo(obj)`
    方法中指明如何排序
 

@@ -41,6 +41,10 @@ export const zhSidebar = sidebar({
                     text: "枚举类和注解",
                     link: "enum/enum",
                 },
+                {
+                    text: "Java集合",
+                    link: "collection/array-collection",
+                },
             ],
         },
     ],
@@ -52,6 +56,7 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/multi-thread/": ["introduce", "concurrent", "thread", "thread-methods", "thread-lifeCycle", "thread-synchronization", "thread-notify", "thread-new"],
     "/java/java-advanced/common-utils/": ["String", "StringBufferAndStringBuilder", "date", "time", "comparator", "other"],
     "/java/java-advanced/enum/": ["enum", "annotation"],
+    "/java/java-advanced/collection/": ["array-collection", "collection", "iterator", "list", "set", "map", "collections", "data-structure"],
 
     "/about/": ["intro", "site"],
 });
