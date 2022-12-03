@@ -53,6 +53,14 @@ export const zhSidebar = sidebar({
                     text: "IO流",
                     link: "IOStream/file",
                 },
+                {
+                    text: "网络编程",
+                    link: "network/InetAddress",
+                },
+                {
+                    text: "Java反射机制",
+                    link: "reflection/reflection",
+                },
             ],
         },
     ],
@@ -66,7 +74,9 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/enum/": ["enum", "annotation"],
     "/java/java-advanced/collection/": ["array-collection", "collection", "iterator", "list", "set", "map", "collections", "data-structure"],
     "/java/java-advanced/generic/": ["generic", "collection", "custom", "extends", "wildcard"],
-    "/java/java-advanced/IOStream/": ["file"],
+    "/java/java-advanced/IOStream/": ["file", "IO", "file-reader", "buffered", "convert", "other", "object", "RandomAccessFile", "path"],
+    "/java/java-advanced/network/": ["InetAddress", "TCP", "UDP", "URL"],
+    "/java/java-advanced/reflection/": ["reflection", "Class", "ClassLoader", "apply1", "apply2", "apply3", "apply4"],
 
     "/about/": ["intro", "site"],
 });
