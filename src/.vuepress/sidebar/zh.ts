@@ -45,6 +45,14 @@ export const zhSidebar = sidebar({
                     text: "Java集合",
                     link: "collection/array-collection",
                 },
+                {
+                    text: "泛型",
+                    link: "generic/generic",
+                },
+                {
+                    text: "IO流",
+                    link: "IOStream/file",
+                },
             ],
         },
     ],
@@ -57,6 +65,8 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/common-utils/": ["String", "StringBufferAndStringBuilder", "date", "time", "comparator", "other"],
     "/java/java-advanced/enum/": ["enum", "annotation"],
     "/java/java-advanced/collection/": ["array-collection", "collection", "iterator", "list", "set", "map", "collections", "data-structure"],
+    "/java/java-advanced/generic/": ["generic", "collection", "custom", "extends", "wildcard"],
+    "/java/java-advanced/IOStream/": ["file"],
 
     "/about/": ["intro", "site"],
 });
