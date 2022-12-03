@@ -61,6 +61,10 @@ export const zhSidebar = sidebar({
                     text: "Java反射机制",
                     link: "reflection/reflection",
                 },
+                {
+                    text: "Java8新特性",
+                    link: "new-features/Lambda",
+                },
             ],
         },
     ],
@@ -77,6 +81,7 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/IOStream/": ["file", "IO", "file-reader", "buffered", "convert", "other", "object", "RandomAccessFile", "path"],
     "/java/java-advanced/network/": ["InetAddress", "TCP", "UDP", "URL"],
     "/java/java-advanced/reflection/": ["reflection", "Class", "ClassLoader", "apply1", "apply2", "apply3", "apply4"],
+    "/java/java-advanced/new-features/": ["Lambda", "FunctionalInterface", "quote", "constructor", "StreamAPI", "Optional"],
 
     "/about/": ["intro", "site"],
 });
