@@ -83,5 +83,29 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/reflection/": ["reflection", "Class", "ClassLoader", "apply1", "apply2", "apply3", "apply4"],
     "/java/java-advanced/new-features/": ["Lambda", "FunctionalInterface", "quote", "constructor", "StreamAPI", "Optional"],
 
+    "/mysql/": [
+        {
+            text: "MySQL基础",
+            icon: "mysql",
+            prefix: "mysql-basic/",
+            children: [
+                "mysql-basic",
+                "env",
+                "select",
+                "operator",
+                "order",
+                "multi-table",
+            ],
+        },
+        {
+            text: "MySQL高级",
+            icon: "creative",
+            prefix: "mysql-advanced/",
+            children: [
+
+            ],
+        },
+    ],
+
     "/about/": ["intro", "site"],
 });
