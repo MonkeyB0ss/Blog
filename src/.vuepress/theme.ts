@@ -88,7 +88,7 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageLazyload: false,
+      imageLazyload: true,
       imageTitle: true,
       imageSize: true,
       include: true,
