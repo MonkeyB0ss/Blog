@@ -20,13 +20,13 @@ tag:
 - [运算符](operator.md)
 - [排序与分页](order.md)
 - [多表查询](multi-table.md)
-- 单行函数
-- 聚合函数
-- 子查询
+- [单行函数](single-line.md)
+- [聚合函数](polymerization.md)
+- [子查询](sub-query.md)
 
 ## **SQL之DDL、DML、DCL使用篇**
 
-- 创建和管理表
+- [创建和管理表](create.md)
 - 数据处理之增删改
 - MySQL数据类型精讲
 - 约束

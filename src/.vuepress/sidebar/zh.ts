@@ -1,6 +1,7 @@
 import {sidebar} from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
+    /* Java */
     "/java/": [
         {
             text: "Java基础编程",
@@ -82,19 +83,55 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/network/": ["InetAddress", "TCP", "UDP", "URL"],
     "/java/java-advanced/reflection/": ["reflection", "Class", "ClassLoader", "apply1", "apply2", "apply3", "apply4"],
     "/java/java-advanced/new-features/": ["Lambda", "FunctionalInterface", "quote", "constructor", "StreamAPI", "Optional"],
+    /* Java */
 
+    /* MySQL */
     "/mysql/": [
         {
             text: "MySQL基础",
             icon: "mysql",
             prefix: "mysql-basic/",
             children: [
-                "mysql-basic",
-                "env",
-                "select",
-                "operator",
-                "order",
-                "multi-table",
+                {
+                    text: "概述与安装",
+                    collapsible: true,
+                    children: [
+                        "mysql-basic",
+                        "env",
+                    ],
+                },
+                {
+                    text: "SELECT使用",
+                    collapsible: true,
+                    children: [
+                        "select",
+                        "operator",
+                        "order",
+                        "multi-table",
+                        "single-line",
+                        "polymerization",
+                        "sub-query",
+                    ],
+                },
+                {
+                    text: "DDL、DML、DCL使用",
+                    collapsible: true,
+                    children: [
+                        "create",
+                    ],
+                },
+                {
+                    text: "其它数据库对象",
+                    collapsible: true,
+                    children: [
+                    ],
+                },
+                {
+                    text: "MySQL8新特性",
+                    collapsible: true,
+                    children: [
+                    ],
+                },
             ],
         },
         {
@@ -106,6 +143,7 @@ export const zhSidebar = sidebar({
             ],
         },
     ],
+    /* MySQL */
 
     "/about/": ["intro", "site"],
 });
