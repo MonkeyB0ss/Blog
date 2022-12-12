@@ -27,17 +27,17 @@ tag:
 ## **SQL之DDL、DML、DCL使用篇**
 
 - [创建和管理表](create.md)
-- 数据处理之增删改
-- MySQL数据类型精讲
-- 约束
+- [数据处理之增删改](crud.md)
+- [MySQL数据类型精讲](data-type.md)
+- [约束](constraint.md)
 
 ## **其它数据库对象篇**
 
-- 视图
-- 存储过程与函数
-- 变量、流程控制与游标
-- 触发器
+- [视图](view.md)
+- [存储过程与函数](procedure.md)
+- [变量、流程控制与游标](variables.md)
+- [触发器](trigger.md)
 
 ## **MySQL8 新特性篇**
 
-- MySQL8其它新特性
+- [MySQL8其它新特性](new-features.md)

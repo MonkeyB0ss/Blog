@@ -118,18 +118,26 @@ export const zhSidebar = sidebar({
                     collapsible: true,
                     children: [
                         "create",
+                        "crud",
+                        "data-type",
+                        "constraint",
                     ],
                 },
                 {
                     text: "其它数据库对象",
                     collapsible: true,
                     children: [
+                        "view",
+                        "procedure",
+                        "variables",
+                        "trigger",
                     ],
                 },
                 {
                     text: "MySQL8新特性",
                     collapsible: true,
                     children: [
+                        "new-features"
                     ],
                 },
             ],
@@ -138,9 +146,7 @@ export const zhSidebar = sidebar({
             text: "MySQL高级",
             icon: "creative",
             prefix: "mysql-advanced/",
-            children: [
-
-            ],
+            children: [],
         },
     ],
     /* MySQL */
