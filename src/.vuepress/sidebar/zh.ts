@@ -146,7 +146,42 @@ export const zhSidebar = sidebar({
             text: "MySQL高级",
             icon: "creative",
             prefix: "mysql-advanced/",
-            children: [],
+            children: [
+                {
+                    text: "MySQL架构",
+                    collapsible: true,
+                    children: [
+                        "setup-linux",
+                        "data-dir",
+                        "user",
+                        "logical-architecture",
+                        "engines",
+                        "indexes",
+                        "InnoDB",
+                    ],
+                },
+                {
+                    text: "索引及调优",
+                    collapsible: true,
+                    children: [
+
+                    ],
+                },
+                {
+                    text: "事务",
+                    collapsible: true,
+                    children: [
+
+                    ],
+                },
+                {
+                    text: "日志与备份",
+                    collapsible: true,
+                    children: [
+
+                    ],
+                },
+            ],
         },
     ],
     /* MySQL */

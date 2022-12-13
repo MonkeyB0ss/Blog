@@ -39,16 +39,16 @@ export const zhNavbar = navbar([
                 text: "基础",
                 children: [
                     {text: "概述与安装", icon: "calculate", link: "mysql-basic/mysql-basic"},
-                    {text: "SELECT使用", icon: "html", link: "mysql-basic/select"},
-                    {text: "DDL、DML、DCL使用", icon: "html", link: "mysql-basic/create"},
-                    {text: "其它数据库对象", icon: "html", link: ""},
-                    {text: "MySQL8新特性", icon: "html", link: ""},
+                    {text: "SELECT使用", icon: "emmet", link: "mysql-basic/select"},
+                    {text: "DDL、DML、DCL使用", icon: "enum", link: "mysql-basic/create"},
+                    {text: "其它数据库对象", icon: "flex", link: "mysql-basic/view"},
+                    {text: "MySQL8新特性", icon: "flower", link: "mysql-basic/new-features"},
                 ]
             },
             {
                 text: "进阶",
                 children: [
-                    {text: "MySQL架构", icon: "network", link: ""},
+                    {text: "MySQL架构", icon: "network", link: "mysql-advanced/setup-linux"},
                     {text: "索引及调优", icon: "cache", link: ""},
                     {text: "事务", icon: "cache", link: ""},
                     {text: "日志与备份", icon: "cache", link: ""},
