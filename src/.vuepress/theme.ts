@@ -52,7 +52,6 @@ export default hopeTheme({
       },
     },
   },
-
   displayFooter: true,
   copyright: "MIT Licensed | Copyright © 2020-present MonkeyBoss",
 
@@ -88,9 +87,6 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageLazyload: true,
-      imageTitle: true,
-      imageSize: true,
       include: true,
       katex: true,
       mark: true,

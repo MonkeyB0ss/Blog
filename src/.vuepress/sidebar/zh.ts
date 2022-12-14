@@ -164,22 +164,24 @@ export const zhSidebar = sidebar({
                     text: "索引及调优",
                     collapsible: true,
                     children: [
-
+                        "index-create",
+                        "slow-query",
+                        "optimize",
+                        "NF",
+                        "other",
                     ],
                 },
                 {
                     text: "事务",
                     collapsible: true,
                     children: [
-
+                        "transaction"
                     ],
                 },
                 {
                     text: "日志与备份",
                     collapsible: true,
-                    children: [
-
-                    ],
+                    children: [],
                 },
             ],
         },
