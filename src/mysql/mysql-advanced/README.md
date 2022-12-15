@@ -30,12 +30,12 @@ tag:
 ## **事务篇**
 
 - [事务基础知识](transaction.md)
-- [MySQL事务日志]()
-- [锁]()
-- [多版本并发控制(MVCC)]()
+- [MySQL事务日志](transaction-log.md)
+- [锁](lock.md)
+- [多版本并发控制(MVCC)](MVCC.md)
 
 ## **日志与备份篇**
 
-- [其它数据库日志]()
-- [主从复制]()
-- [数据库备份与恢复]()
+- [其它数据库日志](other-log.md)
+- [主从复制](MS-copy.md)
+- [数据库备份与恢复](backup.md)

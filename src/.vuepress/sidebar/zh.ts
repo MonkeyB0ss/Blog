@@ -175,13 +175,20 @@ export const zhSidebar = sidebar({
                     text: "事务",
                     collapsible: true,
                     children: [
-                        "transaction"
+                        "transaction",
+                        "transaction-log",
+                        "lock",
+                        "MVCC",
                     ],
                 },
                 {
                     text: "日志与备份",
                     collapsible: true,
-                    children: [],
+                    children: [
+                        "other-log",
+                        "MS-copy",
+                        "backup",
+                    ],
                 },
             ],
         },

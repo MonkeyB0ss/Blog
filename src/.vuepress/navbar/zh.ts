@@ -50,8 +50,8 @@ export const zhNavbar = navbar([
                 children: [
                     {text: "MySQL架构", icon: "network", link: "mysql-advanced/setup-linux"},
                     {text: "索引及调优", icon: "cache", link: "mysql-advanced/index-create"},
-                    {text: "事务", icon: "cache", link: ""},
-                    {text: "日志与备份", icon: "cache", link: ""},
+                    {text: "事务", icon: "cache", link: "mysql-advanced/transaction-log"},
+                    {text: "日志与备份", icon: "cache", link: "mysql-advanced/other-log"},
                 ]
             },
         ],
