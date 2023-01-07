@@ -11,14 +11,14 @@ export const zhNavbar = navbar([
                 text: "基础",
                 children: [
                     {text: "Java基础", icon: "calculate", link: "java-basic/java-basic"},
-                    {text: "JavaWEB", icon: "html", link: ""},
+                    {text: "JavaWEB", icon: "html", link: "https://heavy_code_industry.gitee.io/code_heavy_industry/pro001-javaweb/"},
                 ]
             },
             {
                 text: "进阶",
                 children: [
                     {text: "JavaEE框架", icon: "network", link: ""},
-                    {text: "微服务核心生态", icon: "cache", link: ""},
+                    {text: "微服务核心生态", icon: "cache", link: "https://www.yuque.com/atguigu/springboot"},
                 ]
             },
             {
@@ -48,10 +48,10 @@ export const zhNavbar = navbar([
             {
                 text: "进阶",
                 children: [
-                    {text: "MySQL架构", icon: "network", link: "mysql-advanced/setup-linux"},
-                    {text: "索引及调优", icon: "cache", link: "mysql-advanced/index-create"},
-                    {text: "事务", icon: "cache", link: "mysql-advanced/transaction-log"},
-                    {text: "日志与备份", icon: "cache", link: "mysql-advanced/other-log"},
+                    {text: "MySQL架构", icon: "layout", link: "mysql-advanced/setup-linux"},
+                    {text: "索引及调优", icon: "navigation", link: "mysql-advanced/index-create"},
+                    {text: "事务", icon: "repair", link: "mysql-advanced/transaction-log"},
+                    {text: "日志与备份", icon: "blog", link: "mysql-advanced/other-log"},
                 ]
             },
         ],
