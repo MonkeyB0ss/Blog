@@ -196,4 +196,15 @@ export const zhSidebar = sidebar({
     /* MySQL */
 
     "/about/": ["intro", "site"],
+
+    "/note/": [
+        {
+            text: "架构相关",
+            icon: "condition",
+            prefix: "schema/",
+            children: [
+                "oss",
+            ],
+        }
+    ],
 });

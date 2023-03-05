@@ -17,17 +17,17 @@ export const zhNavbar = navbar([
             {
                 text: "进阶",
                 children: [
-                    {text: "JavaEE框架", icon: "network", link: ""},
-                    {text: "微服务核心生态", icon: "cache", link: "https://www.yuque.com/atguigu/springboot"},
+                    {text: "JavaEE框架", icon: "network", link: "#javaee框架"},
+                    {text: "微服务核心生态", icon: "cache", link: "#微服务核心生态"},
                 ]
             },
-            {
-                text: "其它",
-                children: [
-                    {text: "项目", icon: "operate", link: ""},
-                    {text: "面试", icon: "proxy", link: ""},
-                ]
-            },
+            // {
+            //     text: "其它",
+            //     children: [
+            //         {text: "项目", icon: "operate", link: ""},
+            //         {text: "面试", icon: "proxy", link: ""},
+            //     ]
+            // },
         ],
     },
     {
@@ -61,7 +61,9 @@ export const zhNavbar = navbar([
         icon: "editor",
         prefix: "/note/",
         children: [
-
+            // {text: "后端笔记", icon: "calculate", link: ""},
+            // {text: "前端笔记", icon: "calculate", link: ""},
+            {text: "架构相关", icon: "condition", link: "schema/oss"},
         ]
     }
 ]);
