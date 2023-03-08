@@ -83,6 +83,27 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/network/": ["InetAddress", "TCP", "UDP", "URL"],
     "/java/java-advanced/reflection/": ["reflection", "Class", "ClassLoader", "apply1", "apply2", "apply3", "apply4"],
     "/java/java-advanced/new-features/": ["Lambda", "FunctionalInterface", "quote", "constructor", "StreamAPI", "Optional"],
+
+    "/java/JVM/": [
+        {
+            text: "内存与垃圾回收篇",
+            collapsible: true,
+            prefix: "memory-garbageCollection/",
+            children: ["第1章-JVM与Java体系结构"],
+        },
+        {
+            text: "字节码与类的加载篇",
+            collapsible: true,
+            prefix: "class-classLoader/",
+            children: [],
+        },
+        {
+            text: "性能监控与调优篇",
+            collapsible: true,
+            prefix: "monitoring-tuning/",
+            children: [],
+        },
+    ],
     /* Java */
 
     /* MySQL */
@@ -199,8 +220,25 @@ export const zhSidebar = sidebar({
 
     "/note/": [
         {
+            text: "后端笔记",
+            collapsible: true,
+            prefix: "backend/",
+            children: [
+                {
+                    text: "Spring相关",
+                    icon: "leaf",
+                    collapsible: true,
+                    prefix: "Spring/",
+                    children: [
+                        "validation",
+                        "exception-handling",
+                    ],
+                },
+            ],
+        },
+        {
             text: "架构相关",
-            icon: "condition",
+            collapsible: true,
             prefix: "schema/",
             children: [
                 "oss",
