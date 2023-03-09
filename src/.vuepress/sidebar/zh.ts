@@ -89,7 +89,7 @@ export const zhSidebar = sidebar({
             text: "内存与垃圾回收篇",
             collapsible: true,
             prefix: "memory-garbageCollection/",
-            children: ["第1章-JVM与Java体系结构"],
+            children: ["第1章-JVM与Java体系结构", "第2章-类加载子系统"],
         },
         {
             text: "字节码与类的加载篇",
