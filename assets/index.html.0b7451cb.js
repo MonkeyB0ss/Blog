@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-13b66e9c","path":"/category/%E5%85%B6%E4%BB%96/","title":"其他 分类","lang":"zh-CN","frontmatter":{"title":"其他 分类","blog":{"type":"category","name":"其他","key":"category"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null}');export{e as data};
