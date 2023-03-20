@@ -58,6 +58,14 @@ export const zhNavbar = navbar([
         ],
     },
     {
+        text: "其他",
+        icon: "geometry",
+        prefix: "/other/",
+        children: [
+            {text: "ElasticSearch", link: "elasticsearch"},
+        ]
+    },
+    {
         text: "笔记",
         icon: "editor",
         prefix: "/note/",
