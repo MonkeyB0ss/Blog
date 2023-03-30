@@ -115,50 +115,27 @@ export const zhSidebar = sidebar({
                 {
                     text: "概述与安装",
                     collapsible: true,
-                    children: [
-                        "mysql-basic",
-                        "env",
-                    ],
+                    children: ["mysql-basic", "env"],
                 },
                 {
                     text: "SELECT使用",
                     collapsible: true,
-                    children: [
-                        "select",
-                        "operator",
-                        "order",
-                        "multi-table",
-                        "single-line",
-                        "polymerization",
-                        "sub-query",
-                    ],
+                    children: ["select", "operator", "order", "multi-table", "single-line", "polymerization", "sub-query"],
                 },
                 {
                     text: "DDL、DML、DCL使用",
                     collapsible: true,
-                    children: [
-                        "create",
-                        "crud",
-                        "data-type",
-                        "constraint",
-                    ],
+                    children: ["create", "crud", "data-type", "constraint"],
                 },
                 {
                     text: "其它数据库对象",
                     collapsible: true,
-                    children: [
-                        "view",
-                        "procedure",
-                        "variables",
-                        "trigger",
-                    ],
+                    children: ["view", "procedure", "variables", "trigger"],
                 },
                 {
                     text: "MySQL8新特性",
                     collapsible: true,
-                    children: [
-                        "new-features"
-                    ],
+                    children: ["new-features"],
                 },
             ],
         },
@@ -170,45 +147,22 @@ export const zhSidebar = sidebar({
                 {
                     text: "MySQL架构",
                     collapsible: true,
-                    children: [
-                        "setup-linux",
-                        "data-dir",
-                        "user",
-                        "logical-architecture",
-                        "engines",
-                        "indexes",
-                        "InnoDB",
-                    ],
+                    children: ["setup-linux", "data-dir", "user", "logical-architecture", "engines", "indexes", "InnoDB"],
                 },
                 {
                     text: "索引及调优",
                     collapsible: true,
-                    children: [
-                        "index-create",
-                        "slow-query",
-                        "optimize",
-                        "NF",
-                        "other",
-                    ],
+                    children: ["index-create", "slow-query", "optimize", "NF", "other"],
                 },
                 {
                     text: "事务",
                     collapsible: true,
-                    children: [
-                        "transaction",
-                        "transaction-log",
-                        "lock",
-                        "MVCC",
-                    ],
+                    children: ["transaction", "transaction-log", "lock", "MVCC"],
                 },
                 {
                     text: "日志与备份",
                     collapsible: true,
-                    children: [
-                        "other-log",
-                        "MS-copy",
-                        "backup",
-                    ],
+                    children: ["other-log", "MS-copy", "backup"],
                 },
             ],
         },
@@ -228,11 +182,7 @@ export const zhSidebar = sidebar({
                     icon: "leaf",
                     collapsible: true,
                     prefix: "Spring/",
-                    children: [
-                        "validation",
-                        "exception-handling",
-                        "value-inject.md",
-                    ],
+                    children: ["validation", "exception-handling", "value-inject"],
                 },
             ],
         },
@@ -240,9 +190,17 @@ export const zhSidebar = sidebar({
             text: "架构相关",
             collapsible: true,
             prefix: "schema/",
-            children: [
-                "oss",
-            ],
+            children: ["oss"],
         }
+    ],
+
+    "/other/audition": [
+        {
+            text: "Volatile",
+            collapsible: true,
+            prefix: "JUC/",
+            children: ["Volatile和JMM内存模型的可见性", "Volatile不保证原子性", "Volatile禁止指令重排", "Volatile的应用"],
+        },
+        "JUC/CAS底层原理", "JUC/AtomicInteger的ABA问题", "JUC/ArrayList线程不安全的举例", "JUC/值传递和引用传递"
     ],
 });

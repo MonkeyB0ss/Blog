@@ -21,14 +21,7 @@ export const zhNavbar = navbar([
                     {text: "微服务核心生态", icon: "cache", link: "#微服务核心生态"},
                     {text: "JVM", icon: "engine", link: "JVM/memory-garbageCollection/第1章-JVM与Java体系结构"},
                 ]
-            },
-            // {
-            //     text: "其它",
-            //     children: [
-            //         {text: "项目", icon: "operate", link: ""},
-            //         {text: "面试", icon: "proxy", link: ""},
-            //     ]
-            // },
+            }
         ],
     },
     {
@@ -63,6 +56,7 @@ export const zhNavbar = navbar([
         prefix: "/other/",
         children: [
             {text: "ElasticSearch", link: "elasticsearch"},
+            {text: "面试", icon: "back-stage", link: "audition/JUC/Volatile和JMM内存模型的可见性"},
         ]
     },
     {
