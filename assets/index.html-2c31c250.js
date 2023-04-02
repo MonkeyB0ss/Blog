@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8fb207d2","path":"/java/java-advanced/network/","title":"Network","lang":"zh-CN","frontmatter":{"title":"Network","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};

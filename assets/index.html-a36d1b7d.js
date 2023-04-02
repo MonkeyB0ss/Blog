@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-440250b4","path":"/java/JVM/memory-garbageCollection/","title":"Memory Garbage Collection","lang":"zh-CN","frontmatter":{"title":"Memory Garbage Collection","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};

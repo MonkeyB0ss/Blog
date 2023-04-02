@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6f31d83b","path":"/java/java-advanced/multi-thread/","title":"Multi Thread","lang":"zh-CN","frontmatter":{"title":"Multi Thread","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7129cab8","path":"/java/java-advanced/enum/","title":"Enum","lang":"zh-CN","frontmatter":{"title":"Enum","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a7cf45e2","path":"/java/java-advanced/new-features/","title":"New Features","lang":"zh-CN","frontmatter":{"title":"New Features","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};

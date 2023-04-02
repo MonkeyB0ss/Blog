@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1ad2b313","path":"/java/java-advanced/IOStream/","title":"I O Stream","lang":"zh-CN","frontmatter":{"title":"I O Stream","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};

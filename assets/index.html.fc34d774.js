@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-c8142fd8","path":"/tag/%E6%9E%B6%E6%9E%84%E7%9B%B8%E5%85%B3/","title":"架构相关 标签","lang":"zh-CN","frontmatter":{"title":"架构相关 标签","blog":{"type":"category","name":"架构相关","key":"tag"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null}');export{t as data};
