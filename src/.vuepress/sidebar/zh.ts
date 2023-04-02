@@ -196,24 +196,36 @@ export const zhSidebar = sidebar({
 
     "/other/audition": [
         {
-            text: "Volatile",
+            text: "JUC面试题",
             collapsible: true,
             prefix: "JUC/",
-            children: ["Volatile和JMM内存模型的可见性", "Volatile不保证原子性", "Volatile禁止指令重排", "Volatile的应用"],
+            children: [
+                {
+                    text: "Volatile",
+                    collapsible: true,
+                    children: ["Volatile和JMM内存模型的可见性", "Volatile不保证原子性", "Volatile禁止指令重排", "Volatile的应用"],
+                },
+                "CAS底层原理", "AtomicInteger的ABA问题", "ArrayList线程不安全的举例", "值传递和引用传递",
+                {
+                    text: "Java的锁",
+                    collapsible: true,
+                    children: ["Java锁之公平锁和非公平锁", "Java锁之可重入锁和递归锁", "Java锁之自旋锁", "Java锁之读写锁", "Synchronized无法禁止指令重排却能保证有序性"],
+                },
+                {
+                    text: "CountDownLatch&CyclicBarrier&Semaphore使用",
+                    collapsible: true,
+                    children: ["CountDownLatch", "CyclicBarrier", "Semaphore"],
+                },
+                "阻塞队列", "Synchronized和Lock的区别", "线程池", "死锁编码及定位分析"
+            ],
         },
-        "JUC/CAS底层原理", "JUC/AtomicInteger的ABA问题", "JUC/ArrayList线程不安全的举例", "JUC/值传递和引用传递",
         {
-            text: "Java的锁",
+            text: "JVM面试题",
             collapsible: true,
-            prefix: "JUC/",
-            children: ["Java锁之公平锁和非公平锁", "Java锁之可重入锁和递归锁", "Java锁之自旋锁", "Java锁之读写锁", "Synchronized无法禁止指令重排却能保证有序性"],
+            prefix: "JVM/",
+            children: [
+
+            ],
         },
-        {
-            text: "CountDownLatch&CyclicBarrier&Semaphore使用",
-            collapsible: true,
-            prefix: "JUC/",
-            children: ["CountDownLatch", "CyclicBarrier", "Semaphore"],
-        },
-        "JUC/阻塞队列", "JUC/Synchronized和Lock的区别", "JUC/线程池", "JUC/死锁编码及定位分析"
     ],
 });
