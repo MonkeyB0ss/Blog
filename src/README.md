@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 icon: home
 title: 主页
 bgImage: /background.jpg
@@ -18,7 +18,7 @@ projects:
 
 - name: vuepress-theme-hope
   desc: 一个功能强大的 Vuepress 主题✨
-  link: https://vuepress-theme-hope.github.io/v2/zh/
+  link: https://theme-hope.vuejs.press/zh/
   icon: /assets/img/vuepress-hope-logo.svg
 
 - name: 尚硅谷
