@@ -214,6 +214,6 @@ export const zhSidebar = sidebar({
             prefix: "JUC/",
             children: ["CountDownLatch", "CyclicBarrier", "Semaphore"],
         },
-        "JUC/阻塞队列", "JUC/Synchronized和Lock的区别", "JUC/线程池"
+        "JUC/阻塞队列", "JUC/Synchronized和Lock的区别", "JUC/线程池", "JUC/死锁编码及定位分析"
     ],
 });
