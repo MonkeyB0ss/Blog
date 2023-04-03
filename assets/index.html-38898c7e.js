@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-518735f8","path":"/other/audition/JVM/","title":"J V M","lang":"zh-CN","frontmatter":{"title":"J V M","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":"\\n"}');export{e as data};
