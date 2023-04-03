@@ -209,7 +209,7 @@ export const zhSidebar = sidebar({
                 {
                     text: "Java的锁",
                     collapsible: true,
-                    children: ["Java锁之公平锁和非公平锁", "Java锁之可重入锁和递归锁", "Java锁之自旋锁", "Java锁之读写锁", "Synchronized无法禁止指令重排却能保证有序性"],
+                    children: ["Java锁之公平锁和非公平锁", "Java锁之可重入锁和递归锁", "Java锁之自旋锁", "Java锁之读写锁", "Synchronized无法禁止指令重排却能保证有序性", "乐观锁和悲观锁"],
                 },
                 {
                     text: "CountDownLatch&CyclicBarrier&Semaphore使用",
@@ -223,9 +223,8 @@ export const zhSidebar = sidebar({
             text: "JVM面试题",
             collapsible: true,
             prefix: "JVM/",
-            children: [
-
-            ],
+            children: ["JVM体系结构", "GC Roots", "JVM参数调优", "Java中的引用", "Java内存溢出OOM", "垃圾收集器"],
         },
+        "Linux相关命令", "Github学习"
     ],
 });
