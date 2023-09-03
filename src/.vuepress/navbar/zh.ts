@@ -21,6 +21,12 @@ export const zhNavbar = navbar([
                     {text: "微服务核心生态", icon: "cache", link: "#微服务核心生态"},
                     {text: "JVM", icon: "engine", link: "JVM/memory-garbageCollection/第1章-JVM与Java体系结构"},
                 ]
+            },
+            {
+                text: "源码",
+                children: [
+                    {text: "JDK", icon: "process", link: "source-code/jdk"},
+                ]
             }
         ],
     },
