@@ -198,7 +198,7 @@ export const zhSidebar = sidebar({
             text: "架构相关",
             collapsible: true,
             prefix: "schema/",
-            children: ["oss"],
+            children: ["oss", "mysql-master-slave"],
         }
     ],
 
