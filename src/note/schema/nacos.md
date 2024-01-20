@@ -4,6 +4,8 @@ category: 笔记
 tag:
 
 - 架构相关
+- Nacos
+- Docker
 
 ---
 
