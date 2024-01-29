@@ -83,7 +83,7 @@ export const zhSidebar = sidebar({
     "/java/java-advanced/network/": ["InetAddress", "TCP", "UDP", "URL"],
     "/java/java-advanced/reflection/": ["reflection", "Class", "ClassLoader", "apply1", "apply2", "apply3", "apply4"],
     "/java/java-advanced/new-features/": ["Lambda", "FunctionalInterface", "quote", "constructor", "StreamAPI", "Optional"],
-    
+
     "/java/source-code/": [
         {
             text: "JDK",
@@ -198,7 +198,7 @@ export const zhSidebar = sidebar({
             text: "架构相关",
             collapsible: true,
             prefix: "schema/",
-            children: ["oss", "mysql-master-slave", "nacos"],
+            children: ["github-connect", "docker-desktop", "oss", "mysql-master-slave", "nacos"],
         }
     ],
 
